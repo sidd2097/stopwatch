@@ -40,7 +40,7 @@ const Stopwatch = ()=> {
     return (
         <div className='stopwatch'>
             <h1>Stopwatch</h1>
-            <div className="time">{formatTime(time)}</div>
+            <div className="time">Time: {formatTime(time)}</div>
             <div className="buttons">
                 {isRunning ? (
                     <button onClick={stopStopwatch}>Stop</button>
